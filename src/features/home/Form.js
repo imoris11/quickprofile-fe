@@ -35,7 +35,7 @@ export const UserProfileForm = () => {
               className="form__input"
               name="name"
               type="text"
-              value={state.name}
+              value={state?.name}
               placeholder="Full Name"
             />
           </div>
@@ -44,7 +44,7 @@ export const UserProfileForm = () => {
               className="form__input"
               name="email"
               type="email"
-              value={state.email}
+              value={state?.email}
               onChange={handleChange}
               placeholder="Email"
             />
@@ -55,7 +55,7 @@ export const UserProfileForm = () => {
               name="phone"
               type="tel"
               onChange={handleChange}
-              value={state.phone}
+              value={state?.phone}
               placeholder="Phone"
             />
           </div>
@@ -65,7 +65,7 @@ export const UserProfileForm = () => {
               name="website"
               type="text"
               onChange={handleChange}
-              value={state.website}
+              value={state?.website}
               placeholder="Website"
             />
           </div>
@@ -77,7 +77,7 @@ export const UserProfileForm = () => {
               className="form__input"
               placeholder="Bio"
               rows={5}
-              value={state.bio}
+              value={state?.bio}
             />
           </div>
           <h3>Socials</h3>
@@ -87,7 +87,7 @@ export const UserProfileForm = () => {
               name="linkedin"
               type="text"
               onChange={handleChange}
-              value={state.linkedin}
+              value={state?.linkedin}
               placeholder="LinkedIn"
             />
           </div>
@@ -98,7 +98,7 @@ export const UserProfileForm = () => {
               type="text"
               onChange={handleChange}
               placeholder="Facebook"
-              value={state.facebook}
+              value={state?.facebook}
             />
           </div>
           <div className="form-group">
@@ -107,7 +107,7 @@ export const UserProfileForm = () => {
               name="twitter"
               disabled
               type="text"
-              value={user.screen_name}
+              value={user?.screen_name}
               onChange={handleChange}
               placeholder="Twitter"
             />
@@ -117,7 +117,7 @@ export const UserProfileForm = () => {
               className="form__input"
               name="portfolio"
               type="text"
-              value={state.portfolio}
+              value={state?.portfolio}
               onChange={handleChange}
               placeholder="Other link"
             />
