@@ -1,0 +1,53 @@
+button.button {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0);
+  text-align: center;
+  padding: 8px 25px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+button.login {
+  display: flex;
+  padding: 16px 32px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+button.info {
+  border: 1px solid #2587be;
+  color: #2587be;
+}
+
+button.info:hover {
+  background-color: #2587be;
+  color: #fff;
+}
+
+button.success {
+  border: 1px solid green;
+}
+button.default:hover {
+  background-color: #2587be;
+  color: #fff;
+}
+
+button.default {
+  border: 1px solid #ffffff;
+  color: #fff;
+}
+
+button.danger {
+  border: 1px solid red;
+  color: red;
+}
+
+button.danger:hover {
+  background-color: red;
+  color: #fff;
+}

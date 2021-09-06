@@ -1,0 +1,59 @@
+.container {
+  font-family: Gilroy, sans-serif;
+  height: 100vh;
+  background: #000;
+  opacity: 0.97;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-header {
+  font-family: Gilroy, sans-serif;
+  color: #fff;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 300;
+  max-width: 700px;
+  line-height: 90px;
+  position: relative;
+}
+
+.banner-text {
+  margin-top: 30px;
+  font-family: Gilroy, sans-serif;
+  color: #fff;
+  font-size: 18px;
+  opacity: 0.4;
+}
+
+.banner {
+  justify-content: center;
+}
+
+.signup {
+  margin-top: 70px;
+  text-align: center;
+  position: relative;
+}
+
+.hanging-logo {
+  position: absolute;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    font-weight: 300;
+    width: 100%;
+    padding: 20px;
+    line-height: 40px;
+  }
+  .banner-header {
+    font-size: 36px;
+    line-height: 60px;
+    z-index: 2;
+  }
+  .curves {
+    top: -50px;
+  }
+}
